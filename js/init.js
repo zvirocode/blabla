@@ -2,27 +2,33 @@ $(document).ready( function () {
 
     $(".group1").colorbox({
       rel:'group1',
-      height: 500
+      height: 500,
+      current: "{current} из {total}"
     });
     $(".group2").colorbox({
       rel:'group2',
-      height: 500
+      height: 500,
+      current: "{current} из {total}"
     });
     $(".group3").colorbox({
       rel:'group3',
-      height: 500
+      height: 500,
+      current: "{current} из {total}"
     });
     $(".group4").colorbox({
       rel:'group4',
-      height: 500
+      height: 500,
+      current: "{current} из {total}"
     });
     $(".group5").colorbox({
       rel:'group5',
-      height: 500
+      height: 500,
+      current: "{current} из {total}"
     });
     $(".group6").colorbox({
       rel:'group6',
-      height: 500
+      height: 500,
+      current: "{current} из {total}"
     });
 
 
