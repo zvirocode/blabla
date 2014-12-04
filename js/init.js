@@ -1,11 +1,29 @@
 $(document).ready( function () {
 
-    $(".group1").colorbox({rel:'group1'});
-    $(".group2").colorbox({rel:'group2'});
-    $(".group3").colorbox({rel:'group3'});
-    $(".group4").colorbox({rel:'group4'});
-    $(".group5").colorbox({rel:'group5'});
-    $(".group6").colorbox({rel:'group6'});
+    $(".group1").colorbox({
+      rel:'group1',
+      height: 500
+    });
+    $(".group2").colorbox({
+      rel:'group2',
+      height: 500
+    });
+    $(".group3").colorbox({
+      rel:'group3',
+      height: 500
+    });
+    $(".group4").colorbox({
+      rel:'group4',
+      height: 500
+    });
+    $(".group5").colorbox({
+      rel:'group5',
+      height: 500
+    });
+    $(".group6").colorbox({
+      rel:'group6',
+      height: 500
+    });
 
 
 
