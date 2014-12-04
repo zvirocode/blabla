@@ -592,17 +592,17 @@ section {
 					display: none;
 				}
 			}
-			&:hover {
-				i {
-					visibility: visible;
-					@include opacity(1); 
-					// background-color: rgba(62,77,92, .5);
-					z-index: 400;
-					.ie8 & {
-						display: block;
-					}
-				}
-			}
+			// &:hover {
+			// 	i {
+			// 		visibility: visible;
+			// 		@include opacity(1); 
+			// 		// background-color: rgba(62,77,92, .5);
+			// 		z-index: 400;
+			// 		.ie8 & {
+			// 			display: block;
+			// 		}
+			// 	}
+			// }
 		}
 		h5, p {
 			margin-bottom: 0;

@@ -1311,15 +1311,6 @@ section {
   opacity: 1;
   display: none;
 }
-#team .slide > a:hover i {
-  visibility: visible;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-  z-index: 400;
-}
-.ie8 #team .slide > a:hover i {
-  display: block;
-}
 #team .slide h5, #team .slide p {
   margin-bottom: 0;
 }
