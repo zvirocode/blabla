@@ -53,11 +53,11 @@
 		display: block;
 		@include background(image-url('bg.jpg', false, false) no-repeat 50% 50%);
 		position: relative;
-		background-attachment: fixed;//parallax effect
+		// background-attachment: fixed;//parallax effect
 		text-align: center;
 		border-bottom: 7px solid #1ab374;
 		@include background-size(cover);
-		-ms-behavior: url(../js/backgroundsize.htc);
+		// -ms-behavior: url(../js/backgroundsize.htc);
 		.container {
 			position: relative;
 			z-index: 100;
