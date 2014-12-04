@@ -1,5 +1,14 @@
 $(document).ready( function () {
 
+    $(".group1").colorbox({rel:'group1'});
+    $(".group2").colorbox({rel:'group2'});
+    $(".group3").colorbox({rel:'group3'});
+    $(".group4").colorbox({rel:'group4'});
+    $(".group5").colorbox({rel:'group5'});
+    $(".group6").colorbox({rel:'group6'});
+
+
+
     $('textarea').autosize();
 
     //header links
