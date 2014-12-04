@@ -30,6 +30,26 @@ $(document).ready( function () {
       height: 500,
       current: "{current} из {total}"
     });
+    $(".group7").colorbox({
+      rel:'group7',
+      height: 500,
+      current: "{current} из {total}"
+    });
+    $(".group8").colorbox({
+      rel:'group8',
+      height: 500,
+      current: "{current} из {total}"
+    });
+    $(".group9").colorbox({
+      rel:'group9',
+      height: 500,
+      current: "{current} из {total}"
+    });
+    $(".group10").colorbox({
+      rel:'group10',
+      height: 500,
+      current: "{current} из {total}"
+    });
 
 
 
