@@ -1,0 +1,37 @@
+/* --------------------------------------------------------------------------------------
++
++ BUTTONS
++
+-------------------------------------------------------------------------------------- */
+
+.btn {
+    @include lh(38px);
+    display: inline-block; 
+    text-align: center;
+    padding: 0 10px;
+    color: $btn-clr;
+    background: $btn-bgr;
+    border: 2px solid #fff;
+    @include radius;
+    @include transition(all .3s ease);
+    font-family: $base-font;
+    font-size: $base-font-size;
+    font-weight: 300;
+    &:hover {
+        background: $btn-hover;
+        color: $btn-clr;
+    }
+    &.lightgreen {
+        padding: 0 40px;
+        background-color: #1ea972;
+        @include box-sizing(content-box);
+        &:hover {
+            background-color: #229a6b;
+        }
+    }
+    // &.small {  }
+
+    // &.medium {  }
+
+    // &.large {  }
+}

@@ -1,0 +1,117 @@
+/* --------------------------------------------------------------------------------------
++
++ FOOTER
++
+-------------------------------------------------------------------------------------- */
+#contact-top {
+	width: auto;
+	position: absolute;
+	top: -390px;
+	// left: 50%;
+	// margin-left: -230px;
+	left: 0;
+	z-index: 999;
+	color: #fff;
+	&:before {
+		content: "";
+		width: 62px;
+		height: 62px;
+		background: url(../images/tel.png);
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.contact-top-in {
+		padding-left: 80px;
+		text-align: left;
+	}
+	.contact-top-tel {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.contact-top-meta {
+		font-size: 14px;
+	}
+}
+
+#contact-bg {
+	height: 480px;
+	background: #427c62;
+}
+
+footer {
+	background-color: $footer-bgr;
+	padding: 40px 0;
+	text-align: center;
+	position: relative;
+	// top: 56px;
+	
+	.social-fb, .social-note {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.social-note {
+		margin-left: 20px;
+	}
+
+	.container {
+		overflow: hidden;
+		&>a {
+			display: inline-block;
+			margin-bottom: 15px;
+			&:hover {
+				@include opacity(.5);
+			}
+		}
+		img {
+			&:hover {
+				@include opacity(.5);
+			}
+			
+		}
+	}
+	.left, .right {
+		float: none;
+	}
+	small {
+		display: block;
+		clear: both;
+		font-size: 14px;
+		color: #8494a7;
+		margin-bottom: 30px;
+		margin-top: 10px;
+		
+		a {
+			color: #8494a7;
+			&:hover {
+				color: #506477;
+			}
+		}
+		i {
+			display: block;
+			font-style: normal;
+		}
+	}
+	ul {
+		text-align: center;
+	}
+	li {
+		display: inline-block;
+		margin-left: 10px;
+		&:first-child {
+			margin-left: 0;
+		}
+		a { 
+			width: 48px;
+			height: 48px;
+			display: block;
+			border: 2px solid #8494a7;
+			@include border-radius(50%);
+			@include transition(none);
+			&:hover {
+				border: 2px solid #ff605a;
+				background-color: #ff605a;
+			}
+		}
+	}
+}

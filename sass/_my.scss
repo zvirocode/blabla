@@ -1,0 +1,30 @@
+.lightbox {
+	overflow: hidden;
+}
+
+@media (min-width: 1100px) {
+	.subheader-video {
+		display: block;
+	}
+}
+
+@media (min-width: 768px) {
+ 	#contact-top {
+ 		width: 460px; 
+ 		left: 50%;
+ 		margin-left: -230px;
+ 		.contact-top-tel {
+ 			font-size: 36px;
+ 		}
+ 		.contact-top-meta {
+			font-size: 16px;
+ 		}
+ 	}
+ 	.content {
+ 		.subheader {
+ 			.down {
+ 				bottom: -120px;
+ 			}
+ 		}
+ 	}
+}
