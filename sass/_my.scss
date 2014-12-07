@@ -2,6 +2,14 @@
 	overflow: hidden;
 }
 
+.subheader {
+	height: auto !important;
+	padding-bottom: 150px;
+	.down {
+		bottom: -120px;
+	}
+}
+
 @media (min-width: 1100px) {
 	.subheader-video {
 		display: block;
@@ -22,6 +30,8 @@
  	}
  	.content {
  		.subheader {
+ 			// height: auto !important;
+ 			padding-bottom: 0;
  			.down {
  				bottom: -120px;
  			}
