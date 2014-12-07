@@ -1794,6 +1794,14 @@ body:after {
   overflow: hidden;
 }
 
+.subheader {
+  height: auto !important;
+  padding-bottom: 150px;
+}
+.subheader .down {
+  bottom: -120px;
+}
+
 @media (min-width: 1100px) {
   .subheader-video {
     display: block;
@@ -1812,6 +1820,9 @@ body:after {
     font-size: 16px;
   }
 
+  .content .subheader {
+    padding-bottom: 0;
+  }
   .content .subheader .down {
     bottom: -120px;
   }
